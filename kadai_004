@@ -1,0 +1,34 @@
+81801@f-honoka MINGW64 /
+$ mkdir git_challenge
+
+81801@f-honoka MINGW64 ~
+$ cd git_challenge
+
+81801@f-honoka MINGW64 ~/git_challenge (main)
+$ git add hello_world.txt
+
+81801@f-honoka MINGW64 ~/git_challenge (main)
+$ git commit -m"１回目"
+[main (root-commit) 31ce165] １回目
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+81801@f-honoka MINGW64 ~/git_challenge (main)
+$ git commit -m"２回目"
+[main 2649426] ２回目
+ 1 file changed, 1 insertion(+)
+
+81801@f-honoka MINGW64 ~/git_challenge (main)
+$ git log
+commit 2649426a807f2f86a3570f7526e3b56caa7851aa (HEAD -> main)
+Author: fuchaku-honoka <f.hono1119.mash@gmail.com>
+Date:   Fri Dec 29 21:13:17 2023 +0900
+
+    ２回目
+
+commit 31ce1659c6bf014b5a837c3ee3b6a739211b8257
+Author: fuchaku-honoka <f.hono1119.mash@gmail.com>
+Date:   Fri Dec 29 21:06:32 2023 +0900
+
+    １回目
+
